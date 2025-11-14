@@ -1,0 +1,86 @@
+# --------------------
+# General ignores
+# --------------------
+# Byte-compiled / optimized / compiled files
+*.pyc
+__pycache__/
+*.o
+*.obj
+*.exe
+*.dll
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+temp/
+tmp/
+logs/
+
+# Development environment and sensitive files
+# NEVER commit files that contain passwords or secrets!
+.env
+.env.*
+config/secrets.yml
+*.sqlite
+*.db
+
+# --------------------
+# Operating System files
+# --------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.#*
+
+# --------------------
+# IDE and Editor ignores
+# --------------------
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+#*#
+
+# --------------------
+# Dependency / Package Management
+# --------------------
+# Node/npm
+node_modules/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Composer (PHP)
+vendor/
+
+# Ruby Gems
+.bundle/
+
+# Go
+/bin/
+/pkg/
